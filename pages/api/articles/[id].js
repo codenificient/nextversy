@@ -1,4 +1,4 @@
-import { articles } from "../../../data.json"
+import * as articles from "../../../data.json"
 
 export default function handler({ query: { id } }, res) {
 	const filtered = articles.filter((article) => article.id === id)
