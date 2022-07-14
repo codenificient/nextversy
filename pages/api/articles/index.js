@@ -1,5 +1,5 @@
-import * as articles from "../../../data"
+import { articles } from "../../../data"
 
 export default function handler(req, res) {
-	return res.status(200).json(articles)
+  return res.status(200).json(articles)
 }
