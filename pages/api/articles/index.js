@@ -1,4 +1,4 @@
-import * as articles from "../../../data.json"
+import * as articles from "../../../data"
 
 export default function handler(req, res) {
 	return res.status(200).json(articles)
